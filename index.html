@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Aravind Kumar GS - Computer Science Engineering student and Full Stack Developer portfolio.">
+
+    <meta name="author" content="Aravind Kumar GS">
+
+    <title>Spirex Portfolio Card | Aravind Kumar GS</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#home" class="logo">AK<span>.</span></a>
+
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <button id="themeToggle" class="theme-toggle"
+                aria-label="Switch color theme" title="Switch theme">
+            ☀️
+        </button>
+
+        <button id="accentToggle" class="theme-toggle accent-toggle"
+                aria-label="Change accent color" title="Change accent color">
+            🎨
+        </button>
+    </nav>
+
+    <div class="scroll-progress" aria-hidden="true">
+        <span id="scrollProgress"></span>
+    </div>
+
+    <!-- Main Portfolio Card -->
+    <main class="portfolio-container" id="home">
+
+        <article class="portfolio-card">
+
+            <!-- Hero Section -->
+            <section class="hero reveal" id="about">
+
+                <div class="profile-image">
+                    <img src="profile.png"
+                         alt="Professional portrait of Aravind Kumar GS">
+                    <span class="profile-fallback">AK</span>
+                    <span class="online-indicator"></span>
+                </div>
+
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    Open to Internship Opportunities
+                </div>
+
+                <p class="eyebrow">HELLO, WORLD! 👋</p>
+
+                <h1>I'm <span class="gradient-text">Aravind Kumar GS</span></h1>
+
+                <h2 class="role">
+                    Aspiring <span id="roleText">Full Stack Developer</span>
+                </h2>
+
+                <p class="intro">
+                    I am a Computer Science Engineering student graduating in
+                    2027, passionate about building responsive websites,
+                    useful web applications, and creative digital experiences.
+                    I enjoy learning new technologies and turning ideas into
+                    practical projects.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Work ↗
+                    </a>
+
+                    <a href="#contact" class="btn btn-secondary">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/ARAVINDKUMARGS"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="GitHub profile">
+                        GitHub ↗
+                    </a>
+
+                    <a href="https://linkedin.com/in/aravind-kumar-gs-30b3852a3"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="LinkedIn profile">
+                        LinkedIn ↗
+                    </a>
+                </div>
+
+            </section>
+
+            <div class="divider"></div>
+
+            <!-- About Section -->
+            <section class="section reveal">
+                <div class="section-heading">
+                    <span class="section-number">01</span>
+                    <h2>About Me</h2>
+                </div>
+
+                <p class="section-description">
+                    I am interested in full stack development and creating
+                    user-friendly applications. I work with frontend and
+                    backend technologies and continuously improve my
+                    programming, problem-solving, and teamwork skills.
+                </p>
+
+                <div class="info-grid">
+
+                    <div class="info-item">
+                        <span class="info-icon">🎓</span>
+                        <div>
+                            <h3>Education</h3>
+                            <p>B.E. Computer Science Engineering</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-icon">📅</span>
+                        <div>
+                            <h3>Graduation</h3>
+                            <p>Expected 2027</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-icon">💻</span>
+                        <div>
+                            <h3>Specialization</h3>
+                            <p>Full Stack Development</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-icon">📍</span>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Chennai, Tamil Nadu, India</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <div class="divider"></div>
+
+            <!-- Skills Section -->
+            <section class="section reveal" id="skills">
+
+                <div class="section-heading">
+                    <span class="section-number">02</span>
+                    <h2>Technical Skills</h2>
+                </div>
+
+                <p class="section-description">
+                    Technologies and tools I use to build web applications.
+                </p>
+
+                <div class="skill-groups">
+
+                    <div class="skill-group">
+                        <h3>🎨 Frontend</h3>
+
+                        <div class="skill-list">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>React.js</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>⚙️ Backend</h3>
+
+                        <div class="skill-list">
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>REST APIs</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>🗄️ Databases</h3>
+
+                        <div class="skill-list">
+                            <span>MongoDB</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>🛠️ Tools & Languages</h3>
+
+                        <div class="skill-list">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>Python Basics</span>
+                            <span>Core Java Basics</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <div class="divider"></div>
+
+            <!-- Projects Section -->
+            <section class="section reveal" id="projects">
+
+                <div class="section-heading">
+                    <span class="section-number">03</span>
+                    <h2>Featured Projects</h2>
+                </div>
+
+                <p class="section-description">
+                    A selection of applications I have worked on.
+                </p>
+
+                <div class="projects-grid">
+
+                    <!-- Project 1 -->
+                    <article class="project-card">
+
+                        <div class="project-top">
+                            <div class="project-icon">🏥</div>
+                            <span class="project-label">FULL STACK</span>
+                        </div>
+
+                        <h3>Healthcare Management System</h3>
+
+                        <p>
+                            A web application for managing healthcare
+                            information, user access, and related workflows.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MySQL</span>
+                        </div>
+
+                        <a href="https://github.com/ARAVINDKUMARGS"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-link">
+                            Explore on GitHub ↗
+                        </a>
+
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+
+                        <div class="project-top">
+                            <div class="project-icon">📊</div>
+                            <span class="project-label">WEB APP</span>
+                        </div>
+
+                        <h3>CRM Application</h3>
+
+                        <p>
+                            A customer relationship management application
+                            featuring create, read, update, and delete
+                            operations.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>MongoDB</span>
+                            <span>Express.js</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                        </div>
+
+                        <a href="https://github.com/ARAVINDKUMARGS"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-link">
+                            Explore on GitHub ↗
+                        </a>
+
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+
+                        <div class="project-top">
+                            <div class="project-icon">🌐</div>
+                            <span class="project-label">PORTFOLIO</span>
+                        </div>
+
+                        <h3>Personal Portfolio Website</h3>
+
+                        <p>
+                            A personal website highlighting my background,
+                            technical skills, development projects, and
+                            professional contact links.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="https://aravindkumar-portfolio.vercel.app/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="project-link">
+                            View Live Portfolio ↗
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+            <div class="divider"></div>
+
+            <!-- Contact Section -->
+            <section class="section reveal" id="contact">
+
+                <div class="section-heading">
+                    <span class="section-number">04</span>
+                    <h2>Let's Connect</h2>
+                </div>
+
+                <p class="section-description">
+                    Interested in collaboration, internships, or discussing
+                    development projects? Feel free to connect with me.
+                </p>
+
+                <div class="contact-card">
+
+                    <div class="contact-icon">✉️</div>
+
+                    <div class="contact-details">
+                        <h3>Email Me</h3>
+                        <p id="emailAddress">
+                            aravindkumar06062006@gmail.com
+                        </p>
+                    </div>
+
+                    <button id="copyEmail" class="copy-button">
+                        Copy Email
+                    </button>
+
+                </div>
+
+                <div class="contact-buttons">
+
+                    <a href="mailto:aravindkumar06062006@gmail.com"
+                       class="btn btn-primary">
+                        Send an Email ↗
+                    </a>
+
+                    <a href="https://github.com/ARAVINDKUMARGS"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="btn btn-secondary">
+                        GitHub Profile ↗
+                    </a>
+
+                </div>
+
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <p>
+                    Designed and built by
+                    <span class="gradient-text">Aravind Kumar GS</span>
+                </p>
+
+                <p class="footer-note">
+                    © <span id="currentYear">2026</span> All rights reserved.
+                </p>
+            </footer>
+
+        </article>
+
+    </main>
+
+    <!-- Back to Top -->
+    <button id="backToTop"
+            class="back-to-top"
+            aria-label="Back to top"
+            title="Back to top">
+        ↑
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
